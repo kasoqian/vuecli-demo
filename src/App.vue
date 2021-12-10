@@ -19,7 +19,6 @@ export default {
   created() {
     this.env.name = process.env.NODE_ENV;
     this.env.content = process.env.VUE_APP_TITLE;
-
     this.share = process.env.VUE_APP_SHARE;
   },
 };
